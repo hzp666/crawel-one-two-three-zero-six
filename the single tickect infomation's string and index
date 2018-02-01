@@ -1,0 +1,48 @@
+result":[
+"MsDOGeKGxad9MxDC2RZO5MEBc%2FvKHJWYsGmEbkYcAwQNqET6eh3Lw2zsHi9SNCRsERwTIKfPuR0J%0AbSQ%2F9G4p6%2FmnR8TqW9cIJtFvhnZveIyl6D7%2FNZFdISOISko7Z1mqLv3qLBj49MfUMPaVIAFnNtrv%0AXc%2BC%2FLKmwH22vVuz7lDqTwoPq6VstUsH1ulTMSf5SHIiJeXmZbAyj0UFVp1qyH4AJ9VAZZYHm%2Bya%0ALqR9ADmcMkO1snr4EGJhGHxdk6pa%2FY9pug%3D%3D
+| 预订|  400000K42803|   K425|  LYF|   NGH|   ROF|   HZH|  18:15|  11:58|   17:43| Y|
+%2FSg%2BvCihdBv8Y38c6PIbSnGqCGiwchGUCm7kAf4JmyL5%2BOIylHwNVR7vVUw%3D
+| 20180223| 3|  F2|   03|  21 |    0|    0||||无|||有||无|  无||||     |10403010|  1431|  0"]}
+
+
+
+['result":["ZFdFiw0pk8nyJggndfZI0JI6hjMi4yEyZLjn1cODWKW%2FiJqU5g5o6%2Fa%2Fk2nLA%2FLhypqH%2BNfQ%2F1P5%0AF9xmHjf48%2BAz0mAbHs%2F4bGq79K1qGPaGO%2BYHqg9opDJdghg6KsugEujhhWLMV5HmEDDEEjSjM%2Bd1%0Ab6KKWSmOPj1IOQmx%2BAYylSpO8K3vRa%2Bi0eDSQd4LmCCL%2Fr6JHFqdvq3XhVzG2bfqdmJOcFjLTRBV%0AUKNPaMX48WZRWnKTtqIcYbQ3Nc2yhY0HTw%3D%3D',
+ '预订',
+ '400000K42803',
+ 'K425',     3
+ 'LYF',      4  ==============列车起始站
+ 'NGH',      5   =============列车终点站
+ 'ROF', 	 6    =============发车站
+ 'HZH', 	 7    ==============到达站
+ '18:15',    8
+ '11:58',    9
+ '17:43',    10
+ 'Y',        11   ===========是否为起点 或终点
+ 'MuCmlHEhTI3iTFbTkI0zte4%2BkqXs2tQwfvAuHM4Ohc54HJ6NHbHqzqO2pH0%3D', 
+ '20180223',
+ '3',			14
+ 'F2',			15
+ '03',			16
+ '21',			17
+ '0',			18
+ '0',			19
+ '',			20
+ '', 			21
+ '', 			22
+ '无',			23  ======软卧
+ '',			24    ======软座
+ '', 			25
+ '有', 			26   ======无座
+ '', 			27
+ '无', 			28   ======硬卧
+ '无',			29  ========硬座
+ '', 			30
+ '', 			31
+ '', 			32
+ '', 			33
+ '10401030', 	34
+ '1413', 		35
+ '0"]},			36
+ "httpstatus":200,		37
+ "messages":"",			38
+ "status":true}']		39
