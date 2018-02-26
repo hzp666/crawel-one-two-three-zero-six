@@ -369,8 +369,9 @@ def getlist(date, from_site, to_site):
 
     # get the the web data
     request = req.request('GET', url)
+
     source_data = request.data.decode('utf-8')
-    # print(eval(source_data))
+
     # print(source_data)
 
     # the tickets information
@@ -395,39 +396,40 @@ def getlist(date, from_site, to_site):
 
 
 
-
     # print(all_tickets_info)
-    for i in range(0, len(all_tickets_info)):
+    try:
+        for i in range(0, len(all_tickets_info)):
 
-        single_ticket = all_tickets_info[i].split('|')
-        print('||===========车次信息===============||')
-        print('||车次为：', single_ticket[3], '                     ||')
+            single_ticket = all_tickets_info[i].split('|')
+            print('||===========车次信息===============||')
+            print('||车次为：', single_ticket[3], '                     ||')
 
-        # get the site which aboard and get off
-        aboard_site = reversal_satation[single_ticket[6]]
-        get_off_site = reversal_satation[single_ticket[7]]
-        print('||上车站为：', aboard_site, '                    ||')
-        print('||到达站为：', get_off_site, '                    ||')
-        print('||出发时间为：', single_ticket[8], '                ||')
-        print('||到达时间为：', single_ticket[9], '                ||')
-        print('||旅程时间为：', single_ticket[10], '                ||')
-        first_site = reversal_satation[single_ticket[4]]
-        finnal_site = reversal_satation[single_ticket[5]]
-        print('||列车始发站：', first_site, '                 ||')
-        print('||列车终点站：', finnal_site, '                ||')
-        print('||是否为起点 或 终点站：', single_ticket[11], '           ||')
-        print('||-----------座位信息---------------||')
-        print('||无座为：', single_ticket[26], '                      ||')
-        print('||软卧为：', single_ticket[23], '                      ||')
-        print('||硬座为：', single_ticket[29], '                      ||')
-        print('||软座为：', single_ticket[24], '                      ||')
-        print('||硬卧为：', single_ticket[28], '                      ||')
-        print('||商务座为：', single_ticket[32], '                    ||')
-        print('||一等座为：', single_ticket[31], '                    ||')
-        print('||二等等座为：', single_ticket[30], '                    ||')
-
+            # get the site which aboard and get off
+            aboard_site = reversal_satation[single_ticket[6]]
+            get_off_site = reversal_satation[single_ticket[7]]
+            print('||上车站为：', aboard_site, '                    ||')
+            print('||到达站为：', get_off_site, '                    ||')
+            print('||出发时间为：', single_ticket[8], '                ||')
+            print('||到达时间为：', single_ticket[9], '                ||')
+            print('||旅程时间为：', single_ticket[10], '                ||')
+            first_site = reversal_satation[single_ticket[4]]
+            finnal_site = reversal_satation[single_ticket[5]]
+            print('||列车始发站：', first_site, '                 ||')
+            print('||列车终点站：', finnal_site, '                ||')
+            print('||是否为起点 或 终点站：', single_ticket[11], '           ||')
+            print('||-----------座位信息---------------||')
+            print('||无座为：', single_ticket[26], '                      ||')
+            print('||软卧为：', single_ticket[23], '                      ||')
+            print('||硬座为：', single_ticket[29], '                      ||')
+            print('||软座为：', single_ticket[24], '                      ||')
+            print('||硬卧为：', single_ticket[28], '                      ||')
+            print('||商务座为：', single_ticket[32], '                    ||')
+            print('||一等座为：', single_ticket[31], '                    ||')
+            print('||二等等座为：', single_ticket[30], '                    ||')
+    except IndexError:
+        print('没有直达车次，只有中专方案')
 
     # print(all_tickets_info[0])
 
-getlist('2018-02-02', '杭州', '溧水')
+getlist('2018-02-28', '杭州', '汝州')
 
