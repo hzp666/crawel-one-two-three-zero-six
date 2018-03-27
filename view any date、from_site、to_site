@@ -1,3 +1,6 @@
+12306的查询URL可能会改变，即：URL中的 ...query后边的字母O 可能会变。
+https://kyfw.12306.cn/otn/leftTicket/queryO?leftTicketDTO.train_date='+date+'&leftTicketDTO.from_station='+ from_site +'&leftTicketDTO.to_station='+ to_site +'&purpose_codes=ADULT
+
 # coding=gbk
 
 import urllib3
